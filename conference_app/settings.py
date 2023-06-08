@@ -139,3 +139,4 @@ LOGIN_REDIRECT_URL = '/conferences/'
 
 MEDIA_ROOT = os.path.join( BASE_DIR, 'images' )
 MEDIA_URL = '/media/'
+STATIC_ROOT = Path(BASE_DIR / 'static')
